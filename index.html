@@ -2,7 +2,8 @@
       <meta charset="UTF-8" /> 
      <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <h2 style="color:white;">MEKO</h2>
+ <body onoffline="offline()">
+      <h2 style="color:white;">MEKO</h2>
 <p> 
 <center>
 <a href="">Home</a>
@@ -566,7 +567,7 @@
   </fieldset>
   
   
-  
+ </body>
 <style>
 #follow {
   background-color: red;
@@ -693,6 +694,15 @@ color: white;
 
 
 <script>
+function offline() {
+const n = 10000;
+for (let i = 1; i <= n; i++) {
+    alert("No Network");
+    prompt("ErrorCode:","0593855");
+    console.error("Code:404   ErrorObjectMeko ,'Meko://588294dedoteu.ruby'");
+  }
+}
+      
  function san() {
    alert("Please Dont report People for no reason")
    prompt("Feedback to user:")
