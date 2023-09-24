@@ -1,0 +1,21 @@
+body {
+  background-color: Purple;
+}
+h2 {
+  color: white;
+}
+#Mekobox {
+  border-color: black;
+border-radius: 15px;
+background-color: #849;
+color: white;
+}
+#Mekotext {
+  border-color: black;
+border-radius: 15px;
+background-color: white;
+color: black;
+}
+a {
+  color: blue;
+}

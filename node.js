@@ -1,0 +1,5 @@
+prompt("EDOIUTGGTA56HG:")
+confirm("Overite file")
+alert("Run.java")
+console.log("File created")
+console.error("running")
